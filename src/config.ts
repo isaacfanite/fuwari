@@ -4,7 +4,6 @@ import type {
   ProfileConfig,
   SiteConfig,
 } from './types/config'
-import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
   title: 'LeopardGM Jobs',
@@ -40,7 +39,11 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
   links: [
-    LinkPreset.Home,
+    {
+      name: 'Home',
+      url: 'https://leapard1.vercel.app',     // Internal links should not include the base path, as it is automatically added
+      external: true,                               // Show an external link icon and will open in a new tab
+    },
     {
       name: 'Jobs',
       url: '#',     // Internal links should not include the base path, as it is automatically added
@@ -48,18 +51,18 @@ export const navBarConfig: NavBarConfig = {
     },
     {
       name: 'About Us',
-      url: '#',     // Internal links should not include the base path, as it is automatically added
-      external: false,                               // Show an external link icon and will open in a new tab
+      url: 'https://leapard1.vercel.app/about',     // Internal links should not include the base path, as it is automatically added
+      external: true,                               // Show an external link icon and will open in a new tab
     },
     {
       name: 'Contact',
-      url: '#',     // Internal links should not include the base path, as it is automatically added
-      external: false,                               // Show an external link icon and will open in a new tab
+      url: 'https://leapard1.vercel.app/contact',     // Internal links should not include the base path, as it is automatically added
+      external: true,                               // Show an external link icon and will open in a new tab
     },
     {
       name: 'Login',
       url: '#',     // Internal links should not include the base path, as it is automatically added
-      external: false,                               // Show an external link icon and will open in a new tab
+      external: true,                               // Show an external link icon and will open in a new tab
     },
     
   ],
