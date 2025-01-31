@@ -4,6 +4,7 @@ export type SiteConfig = {
   title: string
   subtitle: string
 
+  src: string
   lang: string
 
   themeColor: {
@@ -54,6 +55,18 @@ export type ProfileConfig = {
   avatar?: string
   name: string
   bio?: string
+  phone: {
+    name: string
+    icon: string
+  }[]
+  address: {
+    name: string
+    icon: string
+  }[]
+  email: {
+    name: string
+    icon: string
+  }[]
   links: {
     name: string
     url: string
