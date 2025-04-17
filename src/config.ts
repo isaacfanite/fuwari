@@ -41,7 +41,7 @@ export const navBarConfig: NavBarConfig = {
   links: [
     {
       name: 'Home',
-      url: 'https://leapard1.vercel.app',     // Internal links should not include the base path, as it is automatically added
+      url: 'https://jobs.leopardgm.co.uk',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
     {
@@ -51,17 +51,17 @@ export const navBarConfig: NavBarConfig = {
     },
     {
       name: 'About Us',
-      url: 'https://leapard1.vercel.app/about',     // Internal links should not include the base path, as it is automatically added
+      url: 'https://new.leopardgm.co.uk/about',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
     {
       name: 'Contact',
-      url: 'https://leapard1.vercel.app/contact',     // Internal links should not include the base path, as it is automatically added
+      url: 'https://new.leopardgm.co.uk/contact',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
     {
-      name: 'Login',
-      url: '#',     // Internal links should not include the base path, as it is automatically added
+      name: 'Login/Register',
+      url: 'https://panel.leopardgm.co.uk/login',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
     
@@ -122,5 +122,5 @@ export const profileConfig: ProfileConfig = {
 export const licenseConfig: LicenseConfig = {
   enable: false,
   name: 'CC BY-NC-SA 4.0',
-  url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+  url: '#',
 }
